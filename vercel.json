@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "public": true,
+  "builds": [],
+  "routes": [
+    { "src": "/open.html", "dest": "/open.html" },
+    { "src": "/source1/(.*)", "dest": "/source1/$1" },
+    { "src": "/source/(.*)", "dest": "/source/$1" },
+    { "src": "/", "dest": "/open.html" }
+  ]
+} 
